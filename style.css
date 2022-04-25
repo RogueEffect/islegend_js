@@ -1,0 +1,48 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    color: #cccccc;
+    background-color: #222255;
+    font-family: 'Helvetica', 'Tahoma', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+div {
+    margin: 0 auto;
+    padding: 0;
+    /* TEMP */
+    /*border: solid 1px #cccccc;*/
+}
+
+#canvas {
+    display: flex;
+    width: 600px;
+    height: 600px;
+    background-color: black;
+    margin-bottom: 36px;
+}
+
+.button {
+    margin: auto;
+    padding: 2px 32px;
+    background-color: #222222;
+    border: outset 2px #3399aa;
+    border-radius: 6px;
+    font-size: 24px;
+}
+
+.button:hover {
+    color: white;
+    background-color: #383838;
+    border: inset 2px #3399aa;
+}
